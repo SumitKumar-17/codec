@@ -14,3 +14,6 @@ apt-get install golang
 
 go run cmd/main.go 
 ```
+
+- The index.m3u8 file will be generated in the output folder.
+- Use the index.html file to paly the video 
