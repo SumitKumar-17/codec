@@ -3,8 +3,9 @@ package main
 import (
 	"fmt"
 	"log"
-	"video-compression/internal/segmenter"
-	"video-compression/internal/playlist"
+
+	"github.com/SumitKumar-17/codec/internal/playlist"
+	"github.com/SumitKumar-17/codec/internal/segmenter"
 )
 
 func main() {
