@@ -17,3 +17,8 @@ go run cmd/main.go
 
 - The index.m3u8 file will be generated in the output folder.
 - Use the index.html file to paly the video 
+
+```bash
+cat input/Insight-GenX-AI.mp4 | go run project.go 
+ffplay -f rawvideo -pixel_format rgb24 -video_size 384x216 -framerate 25 decoded.rgb24
+```
